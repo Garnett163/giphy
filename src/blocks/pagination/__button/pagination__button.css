@@ -1,0 +1,15 @@
+.pagination__button {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border: none;
+  cursor: pointer;
+  background: rgba(234, 84, 0, 0.1);
+  border-radius: 4px;
+}
+
+.pagination__button:hover:enabled {
+  opacity: 0.8;
+}

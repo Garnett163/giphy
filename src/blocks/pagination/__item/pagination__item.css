@@ -1,0 +1,28 @@
+.pagination__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  background: rgba(234, 84, 0, 0.1);
+  border-radius: 4px;
+}
+
+.pagination__item:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 900px) {
+  .pagination__item {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .pagination__item {
+    font-size: 14px;
+  }
+}
